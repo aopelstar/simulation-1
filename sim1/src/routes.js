@@ -4,6 +4,8 @@ import Body from './components/Body';
 import App from './App'
 import Bin from './components/Bin'
 
+
+// ID 42F (Route) ID 42G (Switch)
 export default (
     <Switch>
         <Route exact path ='/' component = { App }/>
