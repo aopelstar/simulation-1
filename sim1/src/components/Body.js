@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css'
 import { Link } from 'react-router-dom';
+import Shelf from './Shelf';
 //state declared ID 36C
 //constructor function ID 36I
 class Body extends Component {
@@ -16,10 +17,10 @@ class Body extends Component {
     render(){
         return(
             <div className = "body" >
-               <Link to = '/shelf/shelfA'> <div className ="shelf"> Shelf A</div></Link>
-              <Link to = '/shelf/shelfB'>  <div className ="shelf"> Shelf B</div></Link>
-               <Link to = '/shelf/shelfC'> <div className ="shelf"> Shelf C</div></Link>
-               <Link to = '/shelf/shelfD'> <div className ="shelf"> Shelf D</div></Link>
+               <Link to = '/shelf/A'> <div className ="shelf"> Shelf A</div></Link>
+              <Link to = '/shelf/B'>  <div className ="shelf"> Shelf B</div></Link>
+               <Link to = '/shelf/C'> <div className ="shelf"> Shelf C</div></Link>
+               <Link to = '/shelf/D'> <div className ="shelf"> Shelf D</div></Link>
             </div>
         )
     }
